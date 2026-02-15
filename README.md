@@ -4,7 +4,7 @@ A reproducible, handheld scientific imaging reference design built from off-the-
 
 ![Field imaging rig – internal design overview](media/intro.jpeg)
 
-The image above shows the internal design and component layout as developed in CAD and carried through to fabrication. This view represents the architectural intent of the system rather than a live CAD session running on the device itself.
+The internal design and component layout as developed in CAD and carried through to fabrication. 
 
 ---
 
@@ -74,6 +74,13 @@ The high‑level assembly sequence is:
 6. Final enclosure closure and validation
 
 The reference build was assembled without shims, rework, or post‑fit adjustments.
+
+## Manufacturing considerations
+
+![Print-ready parts](media/print.png)
+
+The mechanical design is intentionally aligned with additive manufacturing constraints. Part count is minimal, parts are largely flat, overhangs are minimized, and geometries are chosen to print cleanly without excessive supports. This reduces print-induced variability and improves repeatability across different printers and materials.
+
 
 ---
 
